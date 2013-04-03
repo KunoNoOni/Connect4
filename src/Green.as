@@ -9,7 +9,7 @@ package
 		
 		public function Green(X:Number, Y:Number)
 		{
-			super(X*48+16,Y*48);
+			super(X*48+16,Y);
 			loadGraphic(Registry.greenTile,false,false,48,48,false);
 		}
 		

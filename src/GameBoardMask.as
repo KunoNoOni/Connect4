@@ -3,14 +3,14 @@ package
 	import org.flixel.*;
 	//import org.flixel.plugin.photonstorm.*;
 	
-	public class Yellow extends FlxSprite
+	public class GameBoardMask extends FlxSprite
 	{
 		//Variables got here
 		
-		public function Yellow(X:Number, Y:Number)
+		public function GameBoardMask()
 		{
-			super(X*48+16,Y);
-			loadGraphic(Registry.yellowTile,false,false,48,48,false);
+			super(16,0);
+			loadGraphic(Registry.gBoardMask,false,false,336,288,false);
 		}
 		
 		override public function update():void
